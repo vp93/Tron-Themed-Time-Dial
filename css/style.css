@@ -1,0 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Sunflower';
+}
+
+
+.clock {
+  background: #000;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+/*changing canvas position to affect clock position*/
+canvas {
+  position: absolute;
+  left: 33%;
+  top: 20%;
+}
